@@ -15,7 +15,7 @@
  ```
   
  All extracted script files follow the same format. The filename is always composed of the duel name id + `_INTRO`/`_OUTRO`.  
- The contents are always divided in blocks of 4 lines as seen above. The first row of the block (`char`) is for characters, the second row (`arg1`) is related to character positioning, the third (`arg2`) to emotion and the fourth row (`text`) finally is for the dialog text.  
+ The contents are always divided in blocks of 4 lines as seen above. The first row of the block (`char`) is for characters, the second row (`arg1`) is related to character positioning, the third (`arg2`) to emotion and the fourth row (`text`) finally is for the dialog text. You don't change the left side of the block, that is used for formatting. You only change the right side.  
  `char` and `arg2` together decide which character image is used from the /pdui/dialog_chars/ folder. So obviously you can only choose combinations that match an image that is available there.  
  `arg1` can be any of the following:  
  ```
